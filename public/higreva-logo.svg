@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Pink Pillar Left -->
+  <rect x="50" y="80" width="80" height="180" rx="20" fill="#FF4B7D"/>
+  
+  <!-- Teal Pillar Right -->
+  <rect x="270" y="80" width="80" height="180" rx="20" fill="#1ABC9C"/>
+  
+  <!-- White House -->
+  <path d="M 200 120 L 280 200 L 270 200 L 270 280 L 130 280 L 130 200 L 120 200 Z" fill="white" stroke="#333" stroke-width="2"/>
+  
+  <!-- Roof Pink -->
+  <path d="M 200 120 L 160 180 L 240 180 Z" fill="#FF4B7D"/>
+  
+  <!-- Roof Teal -->
+  <path d="M 200 120 L 240 180 L 280 200 Z" fill="#1ABC9C"/>
+  
+  <!-- Window -->
+  <rect x="180" y="150" width="40" height="40" fill="#1ABC9C"/>
+  <line x1="200" y1="150" x2="200" y2="190" stroke="white" stroke-width="2"/>
+  <line x1="180" y1="170" x2="220" y2="170" stroke="white" stroke-width="2"/>
+  
+  <!-- Child Silhouette -->
+  <circle cx="110" cy="240" r="20" fill="#001F3F"/>
+  <path d="M 110 265 Q 100 300 95 330" stroke="#001F3F" stroke-width="8" fill="none"/>
+  <path d="M 110 275 Q 100 310 90 340" stroke="#001F3F" stroke-width="8" fill="none"/>
+  
+  <!-- Reading book -->
+  <rect x="120" y="250" width="25" height="30" rx="3" fill="#001F3F"/>
+  <line x1="132.5" y1="250" x2="132.5" y2="280" stroke="white" stroke-width="1"/>
+  
+  <!-- Plant -->
+  <ellipse cx="260" cy="280" rx="25" ry="8" fill="#4CAF50"/>
+  <path d="M 260 280 Q 250 250 245 220" stroke="#4CAF50" stroke-width="4" fill="none"/>
+  <path d="M 260 280 Q 270 250 275 220" stroke="#4CAF50" stroke-width="4" fill="none"/>
+  
+  <!-- Red Leaf -->
+  <ellipse cx="245" cy="210" rx="8" ry="12" fill="#FF69B4" transform="rotate(-30 245 210)"/>
+  
+  <!-- Blue Leaf -->
+  <ellipse cx="265" cy="210" rx="8" ry="12" fill="#5DADE2" transform="rotate(30 265 210)"/>
+  
+  <!-- Green Leaf -->
+  <ellipse cx="255" cy="220" rx="8" ry="12" fill="#7CB342"/>
+  
+  <!-- Stars -->
+  <path d="M 300 100 L 305 112 L 318 112 L 308 120 L 313 132 L 300 124 L 287 132 L 292 120 L 282 112 L 295 112 Z" fill="#D4AF37"/>
+  <path d="M 330 90 L 333 98 L 342 98 L 335 103 L 338 111 L 330 106 L 322 111 L 325 103 L 318 98 L 327 98 Z" fill="#D4AF37"/>
+  <path d="M 280 110 L 282 116 L 289 116 L 284 120 L 286 126 L 280 122 L 274 126 L 276 120 L 271 116 L 278 116 Z" fill="#D4AF37"/>
+  
+  <!-- Text: HIGREVA -->
+  <text x="200" y="360" font-size="48" font-weight="bold" font-family="Arial, sans-serif" text-anchor="middle" fill="#001F3F">HIGREVA</text>
+  
+  <!-- Text: PRESCHOOL -->
+  <text x="200" y="395" font-size="32" font-family="Arial, sans-serif" text-anchor="middle" fill="#1ABC9C">PRESCHOOL</text>
+  
+  <!-- Tagline -->
+  <text x="200" y="430" font-size="14" font-family="Arial, sans-serif" text-anchor="middle" fill="#666">Stronger Roots, Brighter Future</text>
+  
+  <!-- Decorative leaves -->
+  <text x="145" y="435" font-size="16" fill="#4CAF50">🍃</text>
+  <text x="255" y="435" font-size="16" fill="#4CAF50">🍃</text>
+</svg>

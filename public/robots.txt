@@ -1,0 +1,25 @@
+# HIGREVA Preschools Robots.txt
+# Allow search engines to crawl all content
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+Disallow: /temp
+Disallow: /*.json$
+Disallow: /dist/
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://higreva-bangalore.com/sitemap.xml
+
+# Cache-control
+Cache-control: public, max-age=604800

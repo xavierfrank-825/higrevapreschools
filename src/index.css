@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #293e8f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #3B4FD9;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2d42b8;
+}
+
+/* Text selection */
+::selection {
+  background: #ffb81c;
+  color: #0f358c;
+}
+
+/* Focus visible */
+:focus-visible {
+  outline: 2px solid #ffb81c;
+  outline-offset: 2px;
+}
+
+/* Bootstrap overrides */
+a {
+  color: #3B4FD9;
+  text-decoration: none;
+}
+a:hover {
+  color: #2d42b8;
+}
+
+.btn-warning {
+  background-color: #ffb81c;
+  border-color: #ffb81c;
+  color: #0f358c;
+}
+.btn-warning:hover {
+  background-color: #e0a412;
+  border-color: #e0a412;
+  color: #0f358c;
+}
+
+.bg-primary {
+  background-color: #3B4FD9 !important;
+}
+.bg-primary-subtle {
+  background-color: rgba(59, 79, 217, 0.08) !important;
+}
+.text-primary {
+  color: #3B4FD9 !important;
+}
+.text-muted {
+  color: #6c757d !important;
+}
+.text-white-50 {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Modal backdrop */
+.modal-backdrop.show {
+  opacity: 0.6;
+  background-color: rgba(15, 53, 140, 0.6) !important;
+}
+
+/* WOW-like fade-in on scroll via CSS (progressive enhancement) */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+/* AOS-like animations */
+[data-aos] {
+  opacity: 0;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+[data-aos="fade-up"] {
+  transform: translateY(20px);
+}
+
+[data-aos="fade-up"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-aos="fade-down"] {
+  transform: translateY(-20px);
+}
+
+[data-aos="fade-down"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-aos="slide-left"] {
+  transform: translateX(-30px);
+}
+
+[data-aos="slide-left"].aos-animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+[data-aos="slide-right"] {
+  transform: translateX(30px);
+}
+
+[data-aos="slide-right"].aos-animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+[data-aos="zoom-in"] {
+  transform: scale(0.9);
+}
+
+[data-aos="zoom-in"].aos-animate {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Smooth transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Container-lg override for 1280px max */
+.container-lg {
+  max-width: 1280px;
+}
+
+/* Select2 overrides */
+.select2-container--default .select2-selection--single {
+  border: 1px solid #3B4FD9 !important;
+  border-radius: 8px !important;
+  height: 44px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #3B4FD9 !important;
+  line-height: 42px !important;
+  font-weight: 600 !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  color: #3B4FD9 !important;
+}
+
+/* Accent helpers */
+.badge.bg-warning {
+  background-color: #ffb81c !important;
+}
